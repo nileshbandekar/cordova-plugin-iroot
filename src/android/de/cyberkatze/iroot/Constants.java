@@ -37,7 +37,15 @@ public final class Constants {
             "eu.chainfire.supersu",
             "com.koushikdutta.superuser",
             "com.zachspong.temprootremovejb",
-            "com.ramdroid.appquarantine"
+            "com.ramdroid.appquarantine",
+            "com.devadvance.rootcloakplus",
+        
+            "de.robv.android.xposed.installer",
+            "com.amphoras.hidemyroot",
+            "com.amphoras.hidemyrootadfree",
+            "com.formyhm.hiderootPremium",
+            "com.formyhm.hideroot",
+            "me.phh.superuser"
     );
 
     public static final List<String> ROOT_ONLY_APPLICATIONS = Arrays.asList(
