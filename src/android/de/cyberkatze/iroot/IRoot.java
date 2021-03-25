@@ -3,7 +3,7 @@ package de.cyberkatze.iroot;
 import android.content.Context;
 
 import com.scottyab.rootbeer.RootBeer;
-
+import diff.strazzere.anti;
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.LOG;
@@ -49,6 +49,7 @@ public class IRoot extends CordovaPlugin {
                         PluginResult result;
 
                         try {
+                            FindEmulator.hasEmulatorBuild(getApplicationContext())
                             result = checkIsRooted(args, callbackContext);
                         } catch (Exception error) {
                             result = new PluginResult(PluginResult.Status.ERROR, error.toString());
