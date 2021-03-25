@@ -3,5 +3,6 @@ repositories{
 }
 
 dependencies {
-    implementation 'com.github.scottyab:rootbeer:0.0.8'
+    implementation 'com.github.scottyab:rootbeer:0.0.8',
+    implementation 'com.github.strazzere:anti-emulator'
 }
